@@ -16,7 +16,7 @@ ha_platforms:
 ha_integration_type: integration
 ---
 
-The `metoffice` weather platform uses the Met Office's [DataPoint API](https://www.metoffice.gov.uk/datapoint) for weather data. You can get an API key by registering for a Met Office [account](https://register.metoffice.gov.uk/WaveRegistrationClient/public/register.do?service=datapoint). As their website is not as straightforward, after registration and verifying your account you can login [here](https://register.metoffice.gov.uk/MyAccountClient/account/view) to retrieve your API key.
+The `metoffice` weather platform uses the Met Office's [DataPoint API](https://www.metoffice.gov.uk/datapoint) for weather data. You can get an API key by first registering for a Met Office [account](https://register.metoffice.gov.uk/WaveRegistrationClient/public/register.do?service=datapoint). After registering you will receive an e-mail to complete the registration process. Clicking on the link in the e-mail will take you to the Met Office Weather and climate data page.  Scroll down to the link entitled Met Office DataPoint, click this and then select Register for Met Office DataPoint.  Select 'Existing Account' and resubmit your username and password. You will see a 'Registration Successful' message on screen but you will need to log out and back in again to access this service.  You can login [here](https://register.metoffice.gov.uk/MyAccountClient/account/view) to retrieve your API key.
 
 {% include integrations/config_flow.md %}
 
